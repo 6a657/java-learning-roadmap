@@ -1,0 +1,9 @@
+# 编译
+mvn clean compile
+
+# 逐个运行
+mvn exec:java "-Dexec.mainClass=com.example.basics.TypeDemo"
+mvn exec:java "-Dexec.mainClass=com.example.basics.StringDemo"
+mvn exec:java "-Dexec.mainClass=com.example.basics.ArrayDemo"
+mvn exec:java "-Dexec.mainClass=com.example.basics.ControlFlowDemo"
+mvn exec:java "-Dexec.mainClass=com.example.basics.PassByValueDemo"
