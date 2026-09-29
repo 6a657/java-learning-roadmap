@@ -32,3 +32,7 @@
 - ==：比较的是引用地址，即是不是同一个对象，比较两个相同的苹果时，就会返回false。只有在比较同一个苹果时，才会返回true。
 - equals：比较的是内容（值），比较两个相同的苹果时，会返回true，比较字符串会区分大小写
 - equalsIgnoreCase：比较字符串会忽略大小写的区别
+
+## 定长 VS 变长
+- 定长数组：int[]，创建后无法改大小，工具为Arrays.toString和Arrays.sort
+- 变长数组：ArrayList<Integer>，可以变长（add/remove），只能存对象，工具为Collections.reverse/max，stream
