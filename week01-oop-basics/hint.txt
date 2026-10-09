@@ -4,3 +4,4 @@ mvn clean compile
 # 逐个运行
 mvn exec:java "-Dexec.mainClass=com.example.oop.Main"
 mvn exec:java "-Dexec.mainClass=com.example.oop.FinalDemo"
+mvn exec:java "-Dexec.mainClass=com.example.oop.shape.ShapeDemo"
